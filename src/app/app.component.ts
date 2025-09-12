@@ -7,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'basesAngular01';
+  title = 'Yafté Ramirez';
+
+  duplicarNumero(valor:number):number{
+    return valor*2;
+  }
+
+  pelicula={
+    titulo:"El Gran Pez",
+    anio: 2010,
+    genero: "Drama"
+  }
 }
