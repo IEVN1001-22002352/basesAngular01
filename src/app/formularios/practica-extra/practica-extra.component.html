@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculador de Distancias</title>
+  <link rel="stylesheet" href="practica-extra.component.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculador de distancias entre dos puntos</h1>
+    <hr>
+
+    <div class="form-group">
+      <label for="x1">Punto X1:</label>
+      <input [(ngModel)]="distancia.x1" type="string" id="x1" placeholder="Ingrese X1">
+    </div>
+
+    <div class="form-group">
+      <label for="x2">Punto X2:</label>
+      <input [(ngModel)]="distancia.x2" type="string" id="x2" placeholder="Ingrese X2">
+    </div>
+
+    <div class="form-group">
+      <label for="y1">Punto Y1:</label>
+      <input [(ngModel)]="distancia.y1" type="string" id="y1" placeholder="Ingrese Y1">
+    </div>
+
+    <div class="form-group">
+      <label for="y2">Punto Y2:</label>
+      <input [(ngModel)]="distancia.y2" type="string" id="y2" placeholder="Ingrese Y2">
+    </div>
+
+    <button (click)="procesar()" id="btnCalcular">Calcular</button>
+
+    <h2>La distancia entre los dos puntos es:</h2>
+    <p id="resultado">{{distancia.resultado}}</p>
+  </div>
+</body>
+</html>

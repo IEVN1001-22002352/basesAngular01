@@ -16,13 +16,13 @@ export class OperasBasComponent {
     if (this.tipoOperacion==="sumar"){
       this.resultado=parseFloat(this.num1)+parseInt(this.num2);
     }
-    else if (this.tipoOperacion==="restar"){
+    if (this.tipoOperacion==="restar"){
       this.resultado=parseFloat(this.num1)-parseInt(this.num2);
     }
-    else if (this.tipoOperacion==="multiplicar"){
+    if (this.tipoOperacion==="multiplicar"){
       this.resultado=parseFloat(this.num1)*parseInt(this.num2);
     }
-    else if(this.tipoOperacion==="dividir"){
+    if(this.tipoOperacion==="dividir"){
       this.resultado=parseFloat(this.num1)/parseInt(this.num2);
     }
   }

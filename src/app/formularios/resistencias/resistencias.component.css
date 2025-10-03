@@ -1,0 +1,49 @@
+.color-box {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  border: 1px solid #000;
+  margin-left: 5px;
+}
+
+/* Colores de bandas */
+.negro { background: black; }
+.marron { background: brown; }
+.rojo { background: red; }
+.naranja { background: orange; }
+.amarillo { background: yellow; }
+.verde { background: green; }
+.azul { background: blue; }
+.violeta { background: violet; }
+.gris { background: gray; }
+.blanco { background: white; border: 1px solid #000; }
+.dorado { background: gold; }
+.plateado { background: silver; }
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+td, th {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+}
+
+button {
+  margin-top: 15px;
+  padding: 8px 15px;
+  font-weight: bold;
+  background: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
